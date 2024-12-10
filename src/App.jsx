@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router basename="/igloo-clone">
         <Routes>
           <Route path="/" element={<Home/>}></Route>
         </Routes>
