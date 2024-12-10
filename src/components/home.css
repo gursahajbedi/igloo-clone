@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+.banner .container-out::before{
+    content:"";
+    position: absolute;
+    background-image: url('src/assets/hero-deco-2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: left bottom;
+    height: 250px;
+    width: 150px;
+    left:0;
+    bottom:-21.5%;
+}
+.banner{
+    position: absolute;
+    background-image: url('src/assets/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    left:0;
+    bottom:0;
+    z-index: -1;
+    top: 0;
+}
+.banner::after {
+    content: "";
+    position: absolute;
+    background-image: url('src/assets/hero-deco-1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+    width: 150px;
+    height: 250px;
+    right: 0;
+    top: 30px;
+}
+.hero__text{
+    position: relative;
+    top:240px;
+}
+.container-out{
+    width: 1320px;
+}
+.handler{
+    position: absolute;
+    top:800px;
+    max-height: 800px;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.girlImg{
+    object-fit: contain;
+    overflow: clip;
+    height: 800px;
+    width:100%;
+    padding-top: 40px;
+    animation: fadeInUpSD 3s ease-in-out;
+}
+@keyframes fadeInUpSD{
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-250px);
+        transform: translateY(-250px);
+    }
+    40% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+*{
+    font-family: 'Philosopher', sans-serif;
+    letter-spacing: 0.6px;
+}
