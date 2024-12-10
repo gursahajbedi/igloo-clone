@@ -10,7 +10,7 @@ export default function Revolution(){
                 <p className="xl:text-xl text-lg text-center pb-7 font-bold">
                 Are you ready to take the leap and be part of something truly revolutionary?
                 </p>
-                <img src="/src/assets/loc-boy.png"></img>
+                <img src="/igloo-clone/assets/loc-boy.png"></img>
             </div>
         </div>
     )

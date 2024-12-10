@@ -8,19 +8,19 @@ export default function Footer(){
                     </div>
                     <div className="col-span-6 flex justify-end flex-row gap-7">
                         <a>
-                            <img src="/src/assets/instagram-dark.svg" style={{height:"20px",width:"20px"}} alt="" />
+                            <img src="/igloo-clone/assets/instagram-dark.svg" style={{height:"20px",width:"20px"}} alt="" />
                         </a>
                         <a>
-                            <img src="/src/assets/facebook-dark.svg" style={{height:"20px",width:"20px"}} alt="" />
+                            <img src="/igloo-clone/assets/facebook-dark.svg" style={{height:"20px",width:"20px"}} alt="" />
                         </a>
                         <a>
-                            <img src="/src/assets/twitter-dark.svg" style={{height:"20px",width:"20px"}} alt="" />
+                            <img src="/igloo-clone/assets/twitter-dark.svg" style={{height:"20px",width:"20px"}} alt="" />
                         </a>
                         <a>
-                            <img src="/src/assets/linkedin-dark.svg" style={{height:"20px",width:"20px"}} alt="" />
+                            <img src="/igloo-clone/assets/linkedin-dark.svg" style={{height:"20px",width:"20px"}} alt="" />
                         </a>
                         <a>
-                            <img src="/src/assets/youtube-dark.svg" style={{height:"20px",width:"20px"}} alt="" />
+                            <img src="/igloo-clone/assets/youtube-dark.svg" style={{height:"20px",width:"20px"}} alt="" />
                         </a>
                     </div>
                 </div>

@@ -44,7 +44,7 @@ export default function Form(){
                                 </div>
                             </div>
                             <div>
-                            <img className="absolute w-6/12 object-contain -left-20" src="/src/assets/img-arrow.png"></img>
+                            <img className="absolute w-6/12 object-contain -left-20" src="/igloo-clone/assets/img-arrow.png"></img>
                             </div>
                         </div>
                     </div>

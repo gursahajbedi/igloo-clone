@@ -37,30 +37,30 @@ export default function Home(){
                 <div className="relative container-out xl:container lg:container text-white grid grid-cols-5">
                     <div className="flex col-span-3 m-5 gap-7">
                         <div className="flex flex-row">
-                            <img src="src/assets/call.svg"></img>
+                            <img src="/igloo-clone/assets/call.svg"></img>
                             <h1 className="pe-5 ps-2 text-md" style={{color:"#f68826"}}>+91 880 041 5189</h1>
                         </div>
                         <div className="flex flex-row">
-                            <img src="src/assets/mail.svg"></img>
+                            <img src="/igloo-clone/assets/mail.svg"></img>
                             <h1 className="ps-2" style={{color:"#f68826"}}>hey@igloo.study</h1>
                         </div>
                         
                     </div>
                     <div className="flex col-span-2 m-5 justify-end gap-9">
                         <a>
-                            <img src="src/assets/facebook.svg" style={{height:"20px",width:"20px"}}></img>
+                            <img src="/igloo-clone/assets/facebook.svg" style={{height:"20px",width:"20px"}}></img>
                         </a>
                         <a>
-                            <img src="src/assets/instagram.svg" style={{height:"20px",width:"20px"}}></img>
+                            <img src="/igloo-clone/assets/instagram.svg" style={{height:"20px",width:"20px"}}></img>
                         </a>
                         <a>
-                            <img src="src/assets/linkedin.svg" style={{height:"20px",width:"20px"}}></img>
+                            <img src="/igloo-clone/assets/linkedin.svg" style={{height:"20px",width:"20px"}}></img>
                         </a>
                         <a>
-                            <img src="src/assets/twitter.svg" style={{height:"20px",width:"20px"}}></img>
+                            <img src="/igloo-clone/assets/twitter.svg" style={{height:"20px",width:"20px"}}></img>
                         </a>
                         <a>
-                            <img src="src/assets/youtube.svg" style={{height:"20px",width:"20px"}}></img>
+                            <img src="/igloo-clone/assets/youtube.svg" style={{height:"20px",width:"20px"}}></img>
                         </a>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ export default function Home(){
                         <div className="grid grid-cols-12 text-white">
                             <div className="col-span-2 m-5 ">
                                 <a>
-                                    <img src="/src/assets/logo.svg"></img>
+                                    <img src="/igloo-clone/assets/Logo.svg"></img>
                                 </a>
                             </div>
                             <div className="col-span-10 m-5 justify-end flex gap-12 items-center text-xl">
@@ -91,13 +91,13 @@ export default function Home(){
                             <h3 className="text-2xl">START YOUR GENIUS JOURNEY AT <br/> IGLOO WITH COMMUNITY</h3>
                         </div>
                         <div className="flex gap-1 items-center">
-                            <img className="hero__text" style={{height:"20px"}} src="/src/assets/double-arrow.png"></img>
+                            <img className="hero__text" style={{height:"20px"}} src="/igloo-clone/assets/double-arrow.png"></img>
                             <p className="lg:text-2xl text-xl hero__text font-bold" style={{color:"#341b85"}}>Take a First Step. Call us at <span style={{color:"#f68826"}}>+91 880 041 5189</span></p>
                         </div>
                     </div>
                     <div className="col-span-5">
                         <div className="container">
-                            <img src="src/assets/girl-img.png" className="girlImg"></img>
+                            <img src="/igloo-clone/assets/girl-img.png" className="girlImg"></img>
                         </div>
                     </div>
                 </div>
