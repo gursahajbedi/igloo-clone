@@ -4,7 +4,7 @@
 .banner .container-out::before{
     content:"";
     position: absolute;
-    background-image: url('public/assets/hero-deco-2.png');
+    background-image: url('/assets/hero-deco-2.png');
     background-size: contain;
     background-repeat: no-repeat;
     position: left bottom;
@@ -15,7 +15,7 @@
 }
 .banner{
     position: absolute;
-    background-image: url('public/assets/hero-bg.png');
+    background-image: url('/assets/hero-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
@@ -28,7 +28,7 @@
 .banner::after {
     content: "";
     position: absolute;
-    background-image: url('public/assets/hero-deco-1.png');
+    background-image: url('/assets/hero-deco-1.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right top;
